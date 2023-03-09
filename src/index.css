@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  overflow: hidden;
+}
+
+.principal-div {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.orange {
+  color: #ff3300 !important;
+}
+
+.back-orange {
+  background-color: #ff3300;
+}
+
+.black {
+  color: #6a6a6a;
+}
+
+.back-black {
+  background-color: #6a6a6a;
+}

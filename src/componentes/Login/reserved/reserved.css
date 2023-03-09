@@ -1,0 +1,15 @@
+.reserved {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+  color: #8695a0;
+  bottom: 0;
+  flex-direction: column;
+  border-top: 1px solid rgb(197, 197, 197);
+  padding-top: 10px;
+}
+
