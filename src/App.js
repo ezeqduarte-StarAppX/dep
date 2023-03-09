@@ -14,9 +14,9 @@ function App() {
         <Routes>
           <Route path="registro" element={<Registro />}></Route>
           <Route path="login" element={<Login />}></Route>
-          <Route path="nueva-contraseña" element={<NewPass />}></Route>
-          <Route path="restablecer-contraseña" element={<ResPass />}></Route>
-          <Route path="inicio" element={<Inicio />}></Route>
+          <Route path="nueva-contrasena" element={<NewPass />}></Route>
+          <Route path="restablecer-contrasena" element={<ResPass />}></Route>
+          <Route path="/" element={<Inicio />}></Route>
         </Routes>
       </Main>
     </>

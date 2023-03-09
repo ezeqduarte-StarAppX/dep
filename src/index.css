@@ -9,6 +9,11 @@ body{
   overflow: hidden;
 }
 
+.mainDiv{
+  display: flex;
+  flex-grow: 1;
+}
+
 .principal-div {
   height: 100vh;
   width: 100%;
