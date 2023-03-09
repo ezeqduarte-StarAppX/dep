@@ -1,9 +1,7 @@
-import { Star } from "@mui/icons-material";
-import { Rating } from "@mui/material";
 import React from "react";
-import "./CardCarrouselHome.css";
+import "./cardClub.css";
 
-export default function CardCarrouselHome({ component }) {
+export default function CardClub({ component }) {
   return (
     <div className="cardCarrouselHome">
       <div>

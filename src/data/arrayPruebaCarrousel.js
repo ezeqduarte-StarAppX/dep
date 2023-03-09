@@ -1,5 +1,6 @@
 export const clubes = [
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:
@@ -8,6 +9,7 @@ export const clubes = [
     direccion: "Calle 2000, CABA, Buenos Aires",
   },
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:
@@ -16,6 +18,7 @@ export const clubes = [
     direccion: "Calle 2000, CABA, Buenos Aires",
   },
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:
@@ -24,6 +27,7 @@ export const clubes = [
     direccion: "Calle 2000, CABA, Buenos Aires",
   },
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:
@@ -32,6 +36,7 @@ export const clubes = [
     direccion: "Calle 2000, CABA, Buenos Aires",
   },
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:
@@ -40,6 +45,7 @@ export const clubes = [
     direccion: "Calle 2000, CABA, Buenos Aires",
   },
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:
@@ -48,6 +54,7 @@ export const clubes = [
     direccion: "Calle 2000, CABA, Buenos Aires",
   },
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:
@@ -56,6 +63,7 @@ export const clubes = [
     direccion: "Calle 2000, CABA, Buenos Aires",
   },
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:
@@ -64,6 +72,7 @@ export const clubes = [
     direccion: "Calle 2000, CABA, Buenos Aires",
   },
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:
@@ -72,6 +81,7 @@ export const clubes = [
     direccion: "Calle 2000, CABA, Buenos Aires",
   },
   {
+    type: "club",
     fotoGrande:
       "https://www.centuryabogados.com/wp-content/uploads/2016/10/derecho-deportivo.jpg",
     fotoEscudo:

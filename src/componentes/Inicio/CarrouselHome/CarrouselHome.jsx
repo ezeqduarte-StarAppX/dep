@@ -1,13 +1,16 @@
 import React from "react";
-import CardCarrouselHome from "../CardCarrouselHome/CardCarrouselHome";
+import CardCarrousel from "../CardCarrousel/CardCarrousel";
 import "./carrouselHome.css";
 
 export default function CarrouselHome({ components, card }) {
   return (
     <div className="CardsCarrouselHome">
       {components.map((component) => (
-        <CardCarrouselHome component={component}></CardCarrouselHome>
+        <CardCarrousel component={component}></CardCarrousel>
       ))}
+      <p className="ver-mas">Ver mas</p>
     </div>
   );
 }
+
+

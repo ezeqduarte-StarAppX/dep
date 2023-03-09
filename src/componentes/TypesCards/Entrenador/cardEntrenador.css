@@ -1,0 +1,60 @@
+.cardCarrouselEntrenador {
+  width: 200px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: relative;
+}
+
+.small-Image-Entrenador {
+  position: absolute;
+  right: 3%;
+  top: 2%;
+  background: #ffffff;
+  border-radius: 100px;
+  object-fit: contain;
+  padding: 5px;
+  width: 38px;
+  height: 38px;
+}
+
+.info-card-entrenador {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.ubication-entrenador {
+  display: flex;
+  gap: 5px;
+}
+
+.name-entrenador {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.type-entrenador {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.ubication-entrenador > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 9px;
+  line-height: 20px;
+  color: #ff3300;
+}

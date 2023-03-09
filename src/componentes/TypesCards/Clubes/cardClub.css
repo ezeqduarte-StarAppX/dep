@@ -1,0 +1,49 @@
+.cardCarrouselHome {
+    position: relative;
+  }
+  
+  /*/ card clubes /*/
+  
+  .imgFondoCardCarrousel {
+    width: 200px;
+    height: 211px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .smallImage {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    background: #ffffff;
+    border-radius: 100px;
+    object-fit: contain;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .name-club {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  
+  .direction-club {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .population {
+    position: absolute;
+    bottom: 45px;
+    right: 10px;
+  }
+  

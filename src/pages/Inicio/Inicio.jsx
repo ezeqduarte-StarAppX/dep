@@ -1,7 +1,8 @@
 import React from "react";
-import CardCarrouselClubes from "../../componentes/Inicio/CardCarrouselHome/CardCarrouselHome";
 import CarrouselHome from "../../componentes/Inicio/CarrouselHome/CarrouselHome";
+
 import { clubes } from "../../data/arrayPruebaCarrousel";
+import { entrenadores } from "../../data/arrayPruebaCarrousel2";
 import "./inicio.css";
 
 export default function Inicio() {
@@ -10,11 +11,11 @@ export default function Inicio() {
       <div className="inicio-div">
         <div className="carrouselHome">
           <p>CLUBES</p>
-          <CarrouselHome components={clubes} card={<CardCarrouselClubes />} />
+          <CarrouselHome components={clubes} />
         </div>
         <div className="carrouselHome">
           <p>ENTRENADORES</p>
-          <CarrouselHome components={clubes} />
+          <CarrouselHome components={entrenadores} />
         </div>
       </div>
     </div>
