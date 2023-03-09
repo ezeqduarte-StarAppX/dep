@@ -1,4 +1,5 @@
 import React from "react";
+import NavigationBar from "../../componentes/Inicio/NavigationBar/NavigationBar";
 import SearchBar from "../../componentes/Inicio/SearchBar/SearchBar";
 import "./inicio.css";
 
@@ -16,6 +17,7 @@ export default function Inicio() {
   return (
     <div className="principal-div">
       <SearchBar></SearchBar>
+      <NavigationBar></NavigationBar>
       <div className="inicio-div"></div>
     </div>
   );

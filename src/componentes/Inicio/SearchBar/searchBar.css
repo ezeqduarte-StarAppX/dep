@@ -9,7 +9,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 80px;
+  padding: 0px 25px;
+  z-index: 12;
 }
 
 /*/ filtros /*/

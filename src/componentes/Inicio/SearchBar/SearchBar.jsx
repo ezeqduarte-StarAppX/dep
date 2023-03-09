@@ -13,7 +13,7 @@ export default function SearchBar() {
   return (
     <div className="search-bar">
       <div>
-        <Menu></Menu>
+        <img src="./svg/menu.svg" alt="" />
       </div>
       <div className="filters">
         <div className="input-filter">
@@ -26,7 +26,7 @@ export default function SearchBar() {
       </div>
       <div className="dates-user">
         <img
-        className="pic-user"
+          className="pic-user"
           src="https://images.unsplash.com/photo-1572540688236-4eb938e8c099?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
           alt="foto-usuario"
         />
