@@ -11,11 +11,11 @@ export default function Inicio() {
       <div className="inicio-div">
         <div className="carrouselHome">
           <p>CLUBES</p>
-          <CarrouselHome components={clubes} />
+          <CarrouselHome components={clubes.slice(0,15)} />
         </div>
         <div className="carrouselHome">
           <p>ENTRENADORES</p>
-          <CarrouselHome components={entrenadores} />
+          <CarrouselHome components={entrenadores.slice(0,15)} />
         </div>
       </div>
     </div>

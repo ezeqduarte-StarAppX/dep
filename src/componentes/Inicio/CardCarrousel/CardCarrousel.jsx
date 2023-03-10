@@ -3,7 +3,7 @@ import CardClub from "../../TypesCards/Clubes/CardClub";
 import CardEntrenador from "../../TypesCards/Entrenador/CardEntrenador";
 import "./CardCarrousel.css";
 
-export default function CardCarrouselClubes({ component }) {
+export default function CardCarrousel({ component }) {
   if (component.type.toLowerCase() === "club") {
     return <CardClub component={component} />;
   }

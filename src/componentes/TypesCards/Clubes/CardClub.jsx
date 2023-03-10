@@ -1,9 +1,10 @@
 import React from "react";
 import "./cardClub.css";
+import { motion } from "framer-motion";
 
 export default function CardClub({ component }) {
   return (
-    <div className="cardCarrouselHome">
+    <motion.div className="cardCarrouselHome">
       <div>
         <img
           className="imgFondoCardCarrousel"
@@ -19,6 +20,6 @@ export default function CardClub({ component }) {
       </div>
       <p className="name-club">{component.nombreClub}</p>
       <p className="direction-club">{component.direccion}</p>
-    </div>
+    </motion.div>
   );
 }

@@ -14,10 +14,12 @@ export default function Main(props) {
     <>{props.children}</>
   ) : (
     <>
-      <SearchBar></SearchBar>
       <div className="mainDiv">
-        <NavigationBar></NavigationBar>
-        {props.children}
+        <SearchBar></SearchBar>
+        <div className="mainDiv">
+          <NavigationBar></NavigationBar>
+          {props.children}
+        </div>
       </div>
     </>
   );
