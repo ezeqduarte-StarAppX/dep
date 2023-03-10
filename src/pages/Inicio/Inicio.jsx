@@ -19,7 +19,7 @@ export default function Inicio() {
           <ScreenHome
             text1={"Clubes"}
             text2={"Entrenadores"}
-            carrousel1={<CarrouselHome components={clubes.slice(0, 10)} />}
+            carrousel1={<CarrouselHome components={clubes.slice(0, 15)} />}
             carrousel2={
               <CarrouselHome components={entrenadores.slice(0, 15)} />
             }
@@ -42,7 +42,7 @@ export default function Inicio() {
             text1={"Entrenadores"}
             text2={"Entrenadores"}
             carrousel1={
-              <CarrouselHome components={entrenadores.slice(0, 10)} />
+              <CarrouselHome components={entrenadores.slice(0, 15)} />
             }
             carrousel2={
               <CarrouselHome components={entrenadores.slice(0, 15)} />
