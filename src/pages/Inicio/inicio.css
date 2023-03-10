@@ -14,7 +14,7 @@
 
 /*/ COMPONENTES DEL HOME /*/
 
-.inicio-div > div > p {
+.carrouselHome > div > p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -26,12 +26,29 @@
   border-radius: 6px;
   color: #ffffff;
   padding: 5px 15px;
-  margin-left: 45px;
+  margin-left: 0px;
+}
+
+.infoCarrouselHome {
+  display: flex;
+  padding: 0px 30px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ver-mas {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.44);
 }
 
 .carrouselHome {
   display: flex;
-    gap: 10px;
-    flex-direction: column;
-    width: 100%;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
 }

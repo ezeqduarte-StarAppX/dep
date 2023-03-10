@@ -1,0 +1,16 @@
+.slider-popular-clubes {
+    display: flex;
+    gap: 15px;
+    cursor: grab;
+    height: 150px;
+    flex-wrap: wrap;
+    
+}
+
+.slider-container-popular-clubes {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 150vw;
+    height: 37vh;
+    position: relative;
+}

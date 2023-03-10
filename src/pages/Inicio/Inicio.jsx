@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useRef } from "react";
+import CarrouseClubesPopulares from "../../componentes/Inicio/CarrouselClubesPopulares/CarrouseClubesPopulares";
 import CarrouselHome from "../../componentes/Inicio/CarrouselHome/CarrouselHome";
+import CardPopularClubes from "../../componentes/TypesCards/PopularClubes/CardPopularClubes";
 
 import { clubes } from "../../data/arrayPruebaCarrousel";
 import { entrenadores } from "../../data/arrayPruebaCarrousel2";
@@ -9,13 +11,21 @@ export default function Inicio() {
   return (
     <div className="principal-div">
       <div className="inicio-div">
+        <CarrouseClubesPopulares components={clubes.slice(0,10)}></CarrouseClubesPopulares>
+        
+        {/* <div className="carrouselHome">
+          <div className="infoCarrouselHome">
+            <p>CLUBES</p>
+            <span className="ver-mas">Ver mas</span>
+          </div>
+          <CarrouselHome components={clubes.slice(0, 15)} />
+        </div> */}
         <div className="carrouselHome">
-          <p>CLUBES</p>
-          <CarrouselHome components={clubes.slice(0,15)} />
-        </div>
-        <div className="carrouselHome">
-          <p>ENTRENADORES</p>
-          <CarrouselHome components={entrenadores.slice(0,15)} />
+          <div className="infoCarrouselHome">
+            <p>ENTRENADORES</p>
+            <span className="ver-mas">Ver mas</span>
+          </div>
+          <CarrouselHome components={entrenadores.slice(0, 15)} />
         </div>
       </div>
     </div>
