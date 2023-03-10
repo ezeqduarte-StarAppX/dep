@@ -30,6 +30,7 @@
   line-height: 21px;
   letter-spacing: 0.02em;
   color: #6a6a6a;
+  cursor: pointer;
 }
 
 .input-filter {
@@ -87,4 +88,9 @@
 
 .notification-icon {
   font-size: 30px !important;
+}
+
+.active-searchBar {
+  border-bottom: 2px solid #ff3300 ;
+  color: #ff3300 !important;
 }

@@ -2,45 +2,53 @@ import React, { useRef } from "react";
 import { useSelector } from "react-redux";
 import CarrouseClubesPopulares from "../../componentes/Inicio/CarrouselClubesPopulares/CarrouseClubesPopulares";
 import CarrouselHome from "../../componentes/Inicio/CarrouselHome/CarrouselHome";
-import CardPopularClubes from "../../componentes/TypesCards/PopularClubes/CardPopularClubes";
-
+import ScreenHome from "../../componentes/Inicio/ScreenHome/ScreenHome";
 import { clubes } from "../../data/arrayPruebaCarrousel";
 import { entrenadores } from "../../data/arrayPruebaCarrousel2";
 import "./inicio.css";
 
 export default function Inicio() {
-
-  let { entrenadores } = useSelector((store) => store.navegationReducer);
-
-  console.log(entrenadores);
+  let { estadoFiltrarClubes, estadoFiltrarEntrenadores } = useSelector(
+    (store) => store.navegationReducer
+  );
 
   return (
     <div className="principal-div">
       <div className="inicio-div">
-        <div className="carrouselHome">
-          <div className="infoCarrouselHome">
-            <p>CLUBES POPULARES</p>
-            <span className="ver-mas">Ver mas</span>
-          </div>
-          <CarrouseClubesPopulares
-            components={clubes.slice(0, 10)}
-          ></CarrouseClubesPopulares>
-        </div>
+        {!estadoFiltrarClubes && !estadoFiltrarEntrenadores ? (
+          <ScreenHome
+            text1={"Clubes"}
+            text2={"Entrenadores"}
+            carrousel1={<CarrouselHome components={clubes.slice(0, 10)} />}
+            carrousel2={
+              <CarrouselHome components={entrenadores.slice(0, 15)} />
+            }
+          ></ScreenHome>
+        ) : null}
 
-        <div className="carrouselHome">
-          <div className="infoCarrouselHome">
-            <p>CLUBES</p>
-            <span className="ver-mas">Ver mas</span>
-          </div>
-          <CarrouselHome components={clubes.slice(0, 15)} />
-        </div>
-        {/* <div className="carrouselHome">
-          <div className="infoCarrouselHome">
-            <p>ENTRENADORES</p>
-            <span className="ver-mas">Ver mas</span>
-          </div>
-          <CarrouselHome components={entrenadores.slice(0, 15)} />
-        </div> */}
+        {estadoFiltrarClubes ? (
+          <ScreenHome
+            text1={"Clubes Populares"}
+            text2={"Clubes"}
+            carrousel1={
+              <CarrouseClubesPopulares components={clubes.slice(0, 10)} />
+            }
+            carrousel2={<CarrouselHome components={clubes.slice(0, 15)} />}
+          ></ScreenHome>
+        ) : null}
+
+        {estadoFiltrarEntrenadores ? (
+          <ScreenHome
+            text1={"Entrenadores"}
+            text2={"Entrenadores"}
+            carrousel1={
+              <CarrouselHome components={entrenadores.slice(0, 10)} />
+            }
+            carrousel2={
+              <CarrouselHome components={entrenadores.slice(0, 15)} />
+            }
+          ></ScreenHome>
+        ) : null}
       </div>
     </div>
   );

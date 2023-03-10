@@ -7,9 +7,25 @@ import {
 } from "@mui/icons-material";
 import { Badge, IconButton } from "@mui/material";
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+
 import "./searchBar.css";
+import navegationActions from "../../../redux/actions/navegationActions";
 
 export default function SearchBar() {
+  const dispatch = useDispatch();
+  let { estadoFiltrarClubes, estadoFiltrarEntrenadores } = useSelector(
+    (store) => store.navegationReducer
+  );
+
+  const filtrarEntrenadores = () => {
+    dispatch(navegationActions.filtrarEntrenadores());
+  };
+
+  const filtrarClubes = () => {
+    dispatch(navegationActions.filtrarClubes());
+  };
+
   return (
     <div className="search-bar">
       <div>
@@ -20,9 +36,23 @@ export default function SearchBar() {
           <Search></Search>
           <input placeholder="Buscar" type="text" />
         </div>
-        <p>CLUBES</p>
+        {estadoFiltrarClubes ? (
+          <p className="active-searchBar" onClick={filtrarClubes}>
+            CLUBES
+          </p>
+        ) : (
+          <p onClick={filtrarClubes}>CLUBES</p>
+        )}
+
         <p>|</p>
-        <p>ENTRENADORES</p>
+
+        {estadoFiltrarEntrenadores ? (
+          <p className="active-searchBar" onClick={filtrarEntrenadores}>
+            ENTRENADORES
+          </p>
+        ) : (
+          <p onClick={filtrarEntrenadores}>ENTRENADORES</p>
+        )}
       </div>
       <div className="dates-user">
         <img

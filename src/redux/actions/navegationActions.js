@@ -2,10 +2,16 @@ import { createAction } from "@reduxjs/toolkit";
 
 const filtrarEntrenadores = createAction("filtrarEntrenadores", (aprove) => {
   return {
-    payload: aprove,
+    payload: "filtrar",
   };
 });
 
-const navegationActions = { filtrarEntrenadores };
+const filtrarClubes = createAction("filtrarClubes", (aprove) => {
+    return {
+      payload: "filtrar",
+    };
+  });
+
+const navegationActions = { filtrarEntrenadores, filtrarClubes };
 
 export default navegationActions;
