@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { useSelector } from "react-redux";
 import CarrouseClubesPopulares from "../../componentes/Inicio/CarrouselClubesPopulares/CarrouseClubesPopulares";
 import CarrouselHome from "../../componentes/Inicio/CarrouselHome/CarrouselHome";
 import CardPopularClubes from "../../componentes/TypesCards/PopularClubes/CardPopularClubes";
@@ -8,6 +9,11 @@ import { entrenadores } from "../../data/arrayPruebaCarrousel2";
 import "./inicio.css";
 
 export default function Inicio() {
+
+  let { entrenadores } = useSelector((store) => store.navegationReducer);
+
+  console.log(entrenadores);
+
   return (
     <div className="principal-div">
       <div className="inicio-div">
