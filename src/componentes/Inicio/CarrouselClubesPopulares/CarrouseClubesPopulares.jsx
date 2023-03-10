@@ -7,6 +7,8 @@ import { auto } from "@popperjs/core";
 import CardPopularClubes from "../../TypesCards/PopularClubes/CardPopularClubes";
 
 export default function CarrouseClubesPopulares({ components }) {
+  /*/carrouseles con framer motion/*/
+
   const [scrollLeft, setScrollLeft] = useState(0);
 
   function scrollCarrousel() {
@@ -16,8 +18,13 @@ export default function CarrouseClubesPopulares({ components }) {
       console.log("hola soy grande");
     }
 
-    if (window.screen.width > 900 && window.screen.width < 1700) {
+    if (window.screen.width > 1400 && window.screen.width < 1700) {
       setScrollLeft(-1300);
+      console.log("hola soy chico");
+    }
+
+    if (window.screen.width > 1200 && window.screen.width < 1400) {
+      setScrollLeft(-1550);
       console.log("hola soy chico");
     }
   }

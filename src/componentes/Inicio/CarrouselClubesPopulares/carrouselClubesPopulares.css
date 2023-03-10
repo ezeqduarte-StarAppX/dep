@@ -1,16 +1,16 @@
 .slider-popular-clubes {
-    display: flex;
-    gap: 5px;
-    cursor: grab;
-    height: 150px;
-    flex-wrap: wrap;
-    width: 2900px;
+  display: flex;
+  gap: 5px;
+  cursor: grab;
+  height: 150px;
+  flex-wrap: wrap;
+  width: 2900px;
 }
 
 .slider-container-popular-clubes {
-    margin: 0 auto;
-    overflow-x: hidden;
-    width: 2900px;
-    height: 350px;
-    position: relative;
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+  height: 350px;
+  position: relative;
 }

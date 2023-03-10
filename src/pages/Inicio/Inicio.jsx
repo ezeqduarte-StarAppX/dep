@@ -17,8 +17,7 @@ export default function Inicio() {
             <span className="ver-mas">Ver mas</span>
           </div>
           <CarrouseClubesPopulares components={clubes.slice(0,10)}></CarrouseClubesPopulares>
-        </div>
-        
+        </div>        
         
         <div className="carrouselHome">
           <div className="infoCarrouselHome">

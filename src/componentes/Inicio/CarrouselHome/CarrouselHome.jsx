@@ -6,6 +6,8 @@ import { clubes } from "../../../data/arrayPruebaCarrousel";
 import { auto } from "@popperjs/core";
 
 export default function CarrouselHome({ components, card }) {
+  /*/carrouseles con framer motion/*/
+
   const [scrollLeft, setScrollLeft] = useState(0);
 
   function scrollCarrousel() {
@@ -16,6 +18,11 @@ export default function CarrouselHome({ components, card }) {
 
     if (window.screen.width > 900 && window.screen.width < 1700) {
       setScrollLeft(-1730);
+    }
+
+    if (window.screen.width > 1200 && window.screen.width < 1400) {
+      setScrollLeft(-1960);
+      console.log("hola soy chico");
     }
   }
 
