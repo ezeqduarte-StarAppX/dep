@@ -12,14 +12,7 @@ export const clubes = [
       { name: "Estacionamiento", img: "./svg/estacionamiento.svg" },
       { name: "Vestuarios", img: "./svg/vestuarios.svg" },
       { name: "Wifi", img: "./svg/wifi.svg" },
-      { name: "6 canchas", img: "./svg/cancha.svg" },
-      { name: "Estacionamiento", img: "./svg/estacionamiento.svg" },
-      { name: "Vestuarios", img: "./svg/vestuarios.svg" },
-      { name: "Wifi", img: "./svg/wifi.svg" },
-      { name: "6 canchas", img: "./svg/cancha.svg" },
-      { name: "Estacionamiento", img: "./svg/estacionamiento.svg" },
-      { name: "Vestuarios", img: "./svg/vestuarios.svg" },
-      { name: "Wifi", img: "./svg/wifi.svg" },
+      
     ],
   },
   {
