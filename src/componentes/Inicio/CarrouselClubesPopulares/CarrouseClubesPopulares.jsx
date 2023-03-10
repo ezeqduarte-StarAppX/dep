@@ -13,7 +13,7 @@ export default function CarrouseClubesPopulares({ components }) {
         <motion.div
           className="slider-popular-clubes"
           drag="x"
-          dragConstraints={{ right: 0, left: -1790 }}
+          dragConstraints={{ right: 0, left: "-1271px" }}
         >
           {components.map((club) => (
             <motion.div className="item">

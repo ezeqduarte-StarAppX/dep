@@ -7,16 +7,12 @@
   width: 100%;
 }
 
-
-
 /*/ carrousel /*/
 
 .slider-container {
   margin: 0 auto;
   overflow-x: hidden;
-  width: 90vw;
   position: relative;
-  
 }
 
 .slider {
@@ -24,7 +20,4 @@
   gap: 15px;
   cursor: grab;
   height: 250px;
-  
 }
-
-
