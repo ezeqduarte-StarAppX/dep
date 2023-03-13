@@ -15,7 +15,7 @@ export default function Inicio() {
 
   return (
     <div className="principal-div">
-      {/*  <div className="inicio-div">
+     {/*   <div className="inicio-div">
         {!estadoFiltrarClubes && !estadoFiltrarEntrenadores && (
           <ScreenHome
             text1={"Clubes"}

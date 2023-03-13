@@ -1,0 +1,68 @@
+.select-turn {
+  position: absolute;
+  width: 499.33px;
+  height: 720px;
+  z-index: 9999;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.08),
+    0px 3px 3px rgba(50, 50, 71, 0.08);
+  border-radius: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.close-select {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.options-select-turn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-turn span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ff3300;
+  border-bottom: 2px solid #ff3300;
+}
+
+#next-to-pay {
+  background: #ff3300;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 10px 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#close-select-turn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  color: #666666;
+  cursor: pointer;
+}

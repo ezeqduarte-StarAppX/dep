@@ -1,0 +1,69 @@
+.card-select-turn {
+  width: 446px;
+  height: 140px;
+  border: 2px solid #666666;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 25px;
+  position: relative;
+}
+
+.card-select-turn:hover {
+  border: 2px solid #ff3300;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.price-select-turn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: white;
+  background: #ff7553;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 20px;
+  border-radius: 5px 17px 5px 5px;
+  padding: 10px 5px;
+}
+
+.name-cancha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name-cancha > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.specifications-cancha {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.specifications-cancha > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.select-turn > p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  position: relative;
+  color: #000000;
+}

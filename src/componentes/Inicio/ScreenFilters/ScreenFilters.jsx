@@ -376,6 +376,7 @@ const filterClubes = [
 export default function ScreenFilters() {
   return (
     <div className="screen-filters">
+     
       {filterClubes.map((club) => (
         <CardFilterClub club={club}></CardFilterClub>
       ))}
