@@ -1,0 +1,115 @@
+.card-filter-club {
+  width: 340px;
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-filter-club > img {
+  width: 340px;
+  height: 134px;
+  border-radius: 20px;
+  background: #f2f2f1;
+  border-radius: 20px;
+}
+
+.filter-img-card-filter-club {
+  background-color: #00000030;
+  width: 340px;
+  height: 134px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.card-filter-club > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+}
+
+.price-filter-club {
+  position: absolute;
+  right: 10px;
+  top: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.price-filter-club p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+}
+
+.price-filter-club span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.price-filter-club > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.name-filter-club {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.name-filter-club > div:first-child {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+  }
+
+.name-filter-club > div:last-child {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.name-filter-club > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.times-filter-club {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.times-filter-club > p {
+  background: #ffffff;
+  border: 1px solid rgba(153, 153, 153, 0.5);
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #6a6a6a;
+  padding: 5px 15px;
+}

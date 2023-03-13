@@ -1,0 +1,10 @@
+.screen-filters {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fafafa;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  padding: 90px 0px 50px 65px;
+}

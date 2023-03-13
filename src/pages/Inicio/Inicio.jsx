@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import CarrouseClubesPopulares from "../../componentes/Inicio/CarrouselClubesPopulares/CarrouseClubesPopulares";
 import CarrouselHome from "../../componentes/Inicio/CarrouselHome/CarrouselHome";
+import ScreenFilters from "../../componentes/Inicio/ScreenFilters/ScreenFilters";
 import ScreenHome from "../../componentes/Inicio/ScreenHome/ScreenHome";
 import { clubes } from "../../data/arrayPruebaCarrousel";
 import { entrenadores } from "../../data/arrayPruebaCarrousel2";
@@ -14,7 +15,7 @@ export default function Inicio() {
 
   return (
     <div className="principal-div">
-      <div className="inicio-div">
+      {/*  <div className="inicio-div">
         {!estadoFiltrarClubes && !estadoFiltrarEntrenadores && (
           <ScreenHome
             text1={"Clubes"}
@@ -49,7 +50,8 @@ export default function Inicio() {
             }
           ></ScreenHome>
         )}
-      </div>
+      </div> */}
+      <ScreenFilters></ScreenFilters>
     </div>
   );
 }
