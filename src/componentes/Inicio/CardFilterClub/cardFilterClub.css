@@ -79,17 +79,16 @@
 }
 
 .name-filter-club > div:first-child {
-    display: flex;
-    gap: 5px;
-    justify-content: space-between;
-  }
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
 
 .name-filter-club > div:last-child {
   display: flex;
   gap: 15px;
   justify-content: space-between;
 }
-
 
 .name-filter-club > p {
   font-family: "Roboto";
@@ -119,4 +118,10 @@
   align-items: center;
   color: #6a6a6a;
   padding: 5px 15px;
+}
+
+.times-filter-club > p:hover {
+  background-color: #ff9380;
+  color: white;
+  transition: ease-in-out;
 }
