@@ -8,6 +8,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   }, {
     type: "entrenador",
     fotoGrande:
@@ -17,6 +19,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   }, {
     type: "entrenador",
     fotoGrande:
@@ -26,6 +30,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   }, {
     type: "entrenador",
     fotoGrande:
@@ -35,6 +41,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   }, {
     type: "entrenador",
     fotoGrande:
@@ -44,6 +52,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   }, {
     type: "entrenador",
     fotoGrande:
@@ -53,6 +63,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   }, {
     type: "entrenador",
     fotoGrande:
@@ -62,6 +74,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   }, {
     type: "entrenador",
     fotoGrande:
@@ -71,6 +85,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },{
     type: "entrenador",
     fotoGrande:
@@ -80,6 +96,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -90,6 +108,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -100,6 +120,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -110,6 +132,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -120,6 +144,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -130,6 +156,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -140,6 +168,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -150,6 +180,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -160,6 +192,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -170,6 +204,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
   {
     type: "entrenador",
@@ -180,6 +216,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
 
   {
@@ -191,6 +229,8 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },{
     type: "entrenador",
     fotoGrande:
@@ -200,5 +240,7 @@ export const entrenadores = [
     nombreEntrenador: "Lionela Scalonetta",
     tipo: "Clase de hockey",
     direccion: "Calle 2000, CABA, Buenos Aires",
+    duracion: "60 min",
+    precio: "1500"
   },
 ];

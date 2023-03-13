@@ -1,9 +1,7 @@
 import React from "react";
 import "./cardPopularClubes.css";
 
-export default function CardPopularClubes({club}) {
-  
-
+export default function CardPopularClubes({ club }) {
   return (
     <div className="card-popular-clubes">
       <img src={club.fotoGrande} alt={club.nombreClub} />
@@ -13,10 +11,10 @@ export default function CardPopularClubes({club}) {
           <p className="direction-popular-club">{club.direccion}</p>
         </div>
         <div className="population-popular-club">
-          <img src="./svg/population.svg" />
-          <img src="./svg/population.svg" />
-          <img src="./svg/population.svg" />
-          <img src="./svg/population.svg" />
+          <img src="./svg/population.svg" alt="population" />
+          <img src="./svg/population.svg" alt="population" />
+          <img src="./svg/population.svg" alt="population" />
+          <img src="./svg/population.svg" alt="population" />
         </div>
         <div className="servicies">
           {club.servicies.map((service) => (

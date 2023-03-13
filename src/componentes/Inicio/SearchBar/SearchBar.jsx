@@ -1,15 +1,7 @@
-import {
-  Menu,
-  NotificationAddOutlined,
-  NotificationImportant,
-  NotificationsNone,
-  Search,
-} from "@mui/icons-material";
-import { Badge, IconButton } from "@mui/material";
+import { Search } from "@mui/icons-material";
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-
 import "./searchBar.css";
+import { useDispatch, useSelector } from "react-redux";
 import navegationActions from "../../../redux/actions/navegationActions";
 
 export default function SearchBar() {

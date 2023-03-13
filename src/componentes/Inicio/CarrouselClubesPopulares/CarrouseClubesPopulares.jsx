@@ -1,31 +1,25 @@
 import React, { useEffect, useState } from "react";
-import CardCarrousel from "../CardCarrousel/CardCarrousel";
 import { motion } from "framer-motion";
 import "./carrouselClubesPopulares.css";
-import { clubes } from "../../../data/arrayPruebaCarrousel";
-import { auto } from "@popperjs/core";
 import CardPopularClubes from "../../TypesCards/PopularClubes/CardPopularClubes";
 
 export default function CarrouseClubesPopulares({ components }) {
   /*/carrouseles con framer motion/*/
-
   const [scrollLeft, setScrollLeft] = useState(0);
 
   function scrollCarrousel() {
+    //manejo de querys para scroll horizontal del carrousel
     console.log(window.screen.width);
     if (window.screen.width > 1700) {
       setScrollLeft(-970);
-      console.log("hola soy grande");
     }
 
     if (window.screen.width > 1400 && window.screen.width < 1700) {
       setScrollLeft(-1300);
-      console.log("hola soy chico");
     }
 
     if (window.screen.width > 1200 && window.screen.width < 1400) {
       setScrollLeft(-1550);
-      console.log("hola soy chico");
     }
   }
 
@@ -43,7 +37,6 @@ export default function CarrouseClubesPopulares({ components }) {
         >
           {components.map((club) => (
             <motion.div className="item">
-              {" "}
               <CardPopularClubes club={club}></CardPopularClubes>
             </motion.div>
           ))}

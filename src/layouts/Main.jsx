@@ -1,5 +1,5 @@
 import React from "react";
-import { useHref, useNavigate } from "react-router-dom";
+import { useHref } from "react-router-dom";
 import NavigationBar from "../componentes/Inicio/NavigationBar/NavigationBar";
 import SearchBar from "../componentes/Inicio/SearchBar/SearchBar";
 

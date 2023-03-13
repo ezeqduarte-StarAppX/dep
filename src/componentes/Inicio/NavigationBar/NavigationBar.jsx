@@ -1,4 +1,3 @@
-import { Menu } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { buttons } from "../../../data/buttons-navegation-bar";

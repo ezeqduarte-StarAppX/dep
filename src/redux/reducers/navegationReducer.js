@@ -1,5 +1,4 @@
 import { createReducer } from "@reduxjs/toolkit";
-import { entrenadores } from "../../data/arrayPruebaCarrousel2";
 import navegationActions from "../actions/navegationActions";
 
 const { filtrarEntrenadores , filtrarClubes } = navegationActions;

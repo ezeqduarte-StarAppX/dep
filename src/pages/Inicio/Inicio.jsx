@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { useSelector } from "react-redux";
 import CarrouseClubesPopulares from "../../componentes/Inicio/CarrouselClubesPopulares/CarrouseClubesPopulares";
 import CarrouselHome from "../../componentes/Inicio/CarrouselHome/CarrouselHome";
@@ -15,7 +15,7 @@ export default function Inicio() {
   return (
     <div className="principal-div">
       <div className="inicio-div">
-        {!estadoFiltrarClubes && !estadoFiltrarEntrenadores ? (
+        {!estadoFiltrarClubes && !estadoFiltrarEntrenadores && (
           <ScreenHome
             text1={"Clubes"}
             text2={"Entrenadores"}
@@ -24,9 +24,9 @@ export default function Inicio() {
               <CarrouselHome components={entrenadores.slice(0, 15)} />
             }
           ></ScreenHome>
-        ) : null}
+        )}
 
-        {estadoFiltrarClubes ? (
+        {estadoFiltrarClubes && (
           <ScreenHome
             text1={"Clubes Populares"}
             text2={"Clubes"}
@@ -35,9 +35,9 @@ export default function Inicio() {
             }
             carrousel2={<CarrouselHome components={clubes.slice(0, 15)} />}
           ></ScreenHome>
-        ) : null}
+        )}
 
-        {estadoFiltrarEntrenadores ? (
+        {estadoFiltrarEntrenadores && (
           <ScreenHome
             text1={"Entrenadores"}
             text2={"Entrenadores"}
@@ -48,7 +48,7 @@ export default function Inicio() {
               <CarrouselHome components={entrenadores.slice(0, 15)} />
             }
           ></ScreenHome>
-        ) : null}
+        )}
       </div>
     </div>
   );

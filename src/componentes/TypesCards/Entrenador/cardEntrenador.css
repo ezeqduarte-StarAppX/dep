@@ -6,6 +6,16 @@
   position: relative;
 }
 
+.negroPrueba {
+  width: 200px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.193);
+  z-index: 2;
+}
+
 .small-Image-Entrenador {
   position: absolute;
   right: 3%;
@@ -16,18 +26,21 @@
   padding: 5px;
   width: 38px;
   height: 38px;
-  border: 1px solid #FF3300 ;
+  border: 1px solid #ff3300;
+  z-index: 3;
 }
 
 .info-card-entrenador {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  z-index: 3;
 }
 
 .ubication-entrenador {
   display: flex;
   gap: 5px;
+  z-index: 3;
 }
 
 .name-entrenador {
@@ -39,6 +52,7 @@
   display: flex;
   align-items: center;
   color: #ffffff;
+  z-index: 3;
 }
 
 .type-entrenador {
@@ -49,6 +63,7 @@
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
+  z-index: 3;
 }
 
 .ubication-entrenador > p {
@@ -58,4 +73,37 @@
   font-size: 9px;
   line-height: 20px;
   color: #ff3300;
+  z-index: 3;
+}
+
+.price-duration-entrenador {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+}
+
+.price-duration-entrenador span {
+  border-bottom: 1px solid white;
+  padding-bottom: 1px;
+}
+
+.price-duration-entrenador > p:first-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #ffffff;
+  z-index: 3;
+}
+
+.price-duration-entrenador > p:last-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

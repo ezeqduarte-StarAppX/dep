@@ -13,10 +13,7 @@
 /*/ COMPONENTES DEL HOME /*/
 
 .carrouselHome > div > p {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
-  width: fit-content;
   font-size: 14px;
   line-height: 20px;
   background: #ff7553;
@@ -24,7 +21,7 @@
   border-radius: 6px;
   color: #ffffff;
   padding: 5px 15px;
-  margin-left: 0px;
+  text-transform: uppercase;
 }
 
 .infoCarrouselHome {

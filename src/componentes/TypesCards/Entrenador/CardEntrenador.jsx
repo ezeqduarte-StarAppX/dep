@@ -1,9 +1,16 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import "./cardEntrenador.css";
 
 export default function CardEntrenador({ component }) {
+  let { estadoFiltrarEntrenadores } = useSelector(
+    (store) => store.navegationReducer
+  );
+
   return (
     <div className="cardCarrouselEntrenador">
+      {/* //probando fondo negro */}
+      <div className="negroPrueba"></div>
       <div>
         <img
           className="cardCarrouselEntrenador"
@@ -15,6 +22,14 @@ export default function CardEntrenador({ component }) {
           src={component.fotoEscudo}
           alt=""
         />
+        {estadoFiltrarEntrenadores && (
+          <div className="price-duration-entrenador">
+            <p>
+              <span>{component.duracion}</span> desde
+            </p>
+            <p>${component.precio} ARS</p>
+          </div>
+        )}
       </div>
       <div className="info-card-entrenador">
         <p className="name-entrenador">{component.nombreEntrenador}</p>
