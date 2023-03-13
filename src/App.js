@@ -5,6 +5,7 @@ import Inicio from "./pages/Inicio/Inicio";
 import Login from "./pages/Login/Login";
 import NewPass from "./pages/NewPass/NewPass";
 import Registro from "./pages/Registro/Registro";
+import Reservas from "./pages/Reservas/Reservas";
 import ResPass from "./pages/ResPass/ResPass";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="login" element={<Login />}></Route>
           <Route path="nueva-contrasena" element={<NewPass />}></Route>
           <Route path="restablecer-contrasena" element={<ResPass />}></Route>
+          <Route path="reservas" element={<Reservas />}></Route>
           <Route path="/" element={<Inicio />}></Route>
         </Routes>
       </Main>
