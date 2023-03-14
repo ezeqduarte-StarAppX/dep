@@ -13,6 +13,36 @@
   z-index: 99;
 }
 
+.center-div-search-bar {
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+.welcome-search-bar {
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.welcome-search-bar p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 10px;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+.welcome-search-bar span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  color: #646464;
+}
+
 /*/ filtros /*/
 
 .filters {
@@ -21,6 +51,7 @@
   align-items: center;
   gap: 15px;
   padding-left: 85px;
+  flex-grow: 1;
 }
 
 .filters p {
@@ -53,8 +84,7 @@
   outline: none;
 }
 
-
 .active-searchBar {
-  border-bottom: 2px solid #ff3300 ;
+  border-bottom: 2px solid #ff3300;
   color: #ff3300 !important;
 }

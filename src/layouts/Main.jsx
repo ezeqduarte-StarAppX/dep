@@ -16,7 +16,7 @@ export default function Main(props) {
   ) : (
     <>
       <div className="mainDiv">
-       {/*  <SearchBar></SearchBar> */}
+        <SearchBar></SearchBar>
         <div className="mainDiv">
           <NavigationBar></NavigationBar>
           {props.children}

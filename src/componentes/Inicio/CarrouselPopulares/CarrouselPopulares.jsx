@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import "./carrouselClubesPopulares.css";
-import CardPopularClubes from "../../TypesCards/PopularClubes/CardPopularClubes";
+import "./CarrouselPopulares.css";
+import CardCarrouselPopular from "../../TypesCards/CardCarrouselPopular/CardCarrouselPopular";
 
-export default function CarrouseClubesPopulares({ components }) {
+
+
+export default function CarrouselPopulares({ components }) {
   /*/carrouseles con framer motion/*/
   const [scrollLeft, setScrollLeft] = useState(0);
 
@@ -37,7 +39,7 @@ export default function CarrouseClubesPopulares({ components }) {
         >
           {components.map((club) => (
             <motion.div className="item">
-              <CardPopularClubes club={club}></CardPopularClubes>
+              <CardCarrouselPopular club={club}></CardCarrouselPopular>
             </motion.div>
           ))}
         </motion.div>

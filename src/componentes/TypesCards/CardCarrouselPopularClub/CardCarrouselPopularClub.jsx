@@ -1,7 +1,7 @@
 import React from "react";
-import "./cardPopularClubes.css";
+import "./CardCarrouselPopularClub.css";
 
-export default function CardPopularClubes({ club }) {
+export default function CardCarrouselPopularClub({ club }) {
   return (
     <div className="card-popular-clubes">
       <img src={club.fotoGrande} alt={club.nombreClub} />

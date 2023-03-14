@@ -1,23 +1,13 @@
 import React from "react";
 
-export default function ScreenHome({text1, text2, carrousel1, carrousel2}) {
+export default function ScreenHome({ text, carrousel }) {
   return (
-    <>
-      <div className="carrouselHome">
-        <div className="infoCarrouselHome">
-          <p>{text1}</p>
-          <span className="ver-mas">Ver mas</span>
-        </div>
-        {carrousel1}
+    <div className="carrouselHome">
+      <div className="infoCarrouselHome">
+        <p>{text}</p>
+        <span className="ver-mas">Ver mas</span>
       </div>
-
-      <div className="carrouselHome">
-        <div className="infoCarrouselHome">
-          <p>{text2}</p>
-          <span className="ver-mas">Ver mas</span>
-        </div>
-        {carrousel2}
-      </div>
-    </>
+      {carrousel}
+    </div>
   );
 }

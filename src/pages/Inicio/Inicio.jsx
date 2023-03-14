@@ -1,7 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import CarrouseClubesPopulares from "../../componentes/Inicio/CarrouselClubesPopulares/CarrouseClubesPopulares";
+
 import CarrouselHome from "../../componentes/Inicio/CarrouselHome/CarrouselHome";
+import CarrouselPopulares from "../../componentes/Inicio/CarrouselPopulares/CarrouselPopulares";
+
 import ScreenFilters from "../../componentes/Inicio/ScreenFilters/ScreenFilters";
 import ScreenHome from "../../componentes/Inicio/ScreenHome/ScreenHome";
 import { clubes } from "../../data/arrayPruebaCarrousel";
@@ -15,43 +17,59 @@ export default function Inicio() {
 
   return (
     <div className="principal-div">
-     {/*   <div className="inicio-div">
+      <div className="inicio-div">
         {!estadoFiltrarClubes && !estadoFiltrarEntrenadores && (
-          <ScreenHome
-            text1={"Clubes"}
-            text2={"Entrenadores"}
-            carrousel1={<CarrouselHome components={clubes.slice(0, 15)} />}
-            carrousel2={
-              <CarrouselHome components={entrenadores.slice(0, 15)} />
-            }
-          ></ScreenHome>
+          <>
+            <ScreenHome
+              text={"Clubes"}
+              text2={"Entrenadores"}
+              carrousel={<CarrouselHome components={clubes.slice(0, 15)} />}
+              carrousel2={
+                <CarrouselHome components={entrenadores.slice(0, 15)} />
+              }
+            ></ScreenHome>
+            <ScreenHome
+              text={"Entrenadores"}
+              carrousel={
+                <CarrouselHome components={entrenadores.slice(0, 15)} />
+              }
+            ></ScreenHome>
+          </>
         )}
 
         {estadoFiltrarClubes && (
-          <ScreenHome
-            text1={"Clubes Populares"}
-            text2={"Clubes"}
-            carrousel1={
-              <CarrouseClubesPopulares components={clubes.slice(0, 10)} />
-            }
-            carrousel2={<CarrouselHome components={clubes.slice(0, 15)} />}
-          ></ScreenHome>
+          <>
+            <ScreenHome
+              text={"Clubes Populares"}
+              carrousel={
+                <CarrouselPopulares components={clubes.slice(0, 10)} />
+              }
+            ></ScreenHome>
+            <ScreenHome
+              text={"Clubes"}
+              carrousel={<CarrouselHome components={clubes.slice(0, 15)} />}
+            ></ScreenHome>
+          </>
         )}
 
         {estadoFiltrarEntrenadores && (
-          <ScreenHome
-            text1={"Entrenadores"}
-            text2={"Entrenadores"}
-            carrousel1={
-              <CarrouselHome components={entrenadores.slice(0, 15)} />
-            }
-            carrousel2={
-              <CarrouselHome components={entrenadores.slice(0, 15)} />
-            }
-          ></ScreenHome>
+          <>
+            <ScreenHome
+              text={"Entrenadores"}
+              carrousel={
+                <CarrouselHome components={entrenadores.slice(0, 15)} />
+              }
+            ></ScreenHome>
+            <ScreenHome
+              text={"Entrenadores"}
+              carrousel={
+                <CarrouselHome components={entrenadores.slice(0, 15)} />
+              }
+            ></ScreenHome>
+          </>
         )}
-      </div> */}
-      <ScreenFilters></ScreenFilters>
+      </div>
+      {/*  <ScreenFilters></ScreenFilters> */}
     </div>
   );
 }

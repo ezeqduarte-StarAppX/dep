@@ -28,28 +28,34 @@ export default function SearchBar() {
       <div>
         <img src="./svg/menu.svg" alt="" />
       </div>
-      <div className="filters">
-        <div className="input-filter" onClick={filtersOnOff}>
-          <Search></Search>
-          <input placeholder="Buscar" type="text" />
+      <div className="center-div-search-bar">
+        <div className="filters">
+          <div className="input-filter" onClick={filtersOnOff}>
+            <Search></Search>
+            <input placeholder="Buscar" type="text" />
+          </div>
+          {estadoFiltrarClubes ? (
+            <p className="active-searchBar" onClick={filtrarClubes}>
+              CLUBES
+            </p>
+          ) : (
+            <p onClick={filtrarClubes}>CLUBES</p>
+          )}
+
+          <p>|</p>
+
+          {estadoFiltrarEntrenadores ? (
+            <p className="active-searchBar" onClick={filtrarEntrenadores}>
+              ENTRENADORES
+            </p>
+          ) : (
+            <p onClick={filtrarEntrenadores}>ENTRENADORES</p>
+          )}
         </div>
-        {estadoFiltrarClubes ? (
-          <p className="active-searchBar" onClick={filtrarClubes}>
-            CLUBES
-          </p>
-        ) : (
-          <p onClick={filtrarClubes}>CLUBES</p>
-        )}
-
-        <p>|</p>
-
-        {estadoFiltrarEntrenadores ? (
-          <p className="active-searchBar" onClick={filtrarEntrenadores}>
-            ENTRENADORES
-          </p>
-        ) : (
-          <p onClick={filtrarEntrenadores}>ENTRENADORES</p>
-        )}
+        {/* <div className="welcome-search-bar">
+          <p>Hola Jorge, Oscar</p>
+          <span>Perfil de Liga</span>
+        </div> */}
       </div>
       <InputDate />
     </div>
