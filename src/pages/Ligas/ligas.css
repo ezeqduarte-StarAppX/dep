@@ -1,7 +1,29 @@
-.ligas-div-principal{
-    width: 100vw;
-    height: 100vh;
-    padding-top: 100px;
-    padding-left: 100px;
-    background-color: #FAFAFA;
+.ligas-div-principal {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 100px;
+  padding-left: 100px;
+  background-color: #fafafa;
+}
+
+.all-leagues {
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45vh;
+  gap: 5px;
+  padding: 5px;
+}
+
+.all-leagues::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 25px;
+  background-color: rgb(240, 240, 240);
+}
+
+.all-leagues::-webkit-scrollbar-thumb {
+  background-color: rgb(225, 225, 225);
+  border-radius: 25px;
 }
