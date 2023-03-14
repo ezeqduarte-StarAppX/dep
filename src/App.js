@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./index.css";
 import Main from "./layouts/Main";
+import Chats from "./pages/Chats/Chats";
 import Inicio from "./pages/Inicio/Inicio";
 import Login from "./pages/Login/Login";
 import NewPass from "./pages/NewPass/NewPass";
@@ -19,6 +20,7 @@ function App() {
           <Route path="restablecer-contrasena" element={<ResPass />}></Route>
           <Route path="reservas" element={<Reservas />}></Route>
           <Route path="/" element={<Inicio />}></Route>
+          <Route path="/chats" element={<Chats />}></Route>
         </Routes>
       </Main>
     </>

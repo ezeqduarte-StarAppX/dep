@@ -1,0 +1,88 @@
+.all-chats-div {
+  width: 350px;
+  padding: 20px 10px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.title-all-chats h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #717171;
+}
+
+.title-all-chats p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #9c9c9c;
+}
+
+.input-filter {
+  display: flex;
+  background: #f5f5f5;
+  border-radius: 100px;
+  width: 300px;
+  padding: 8px;
+  gap: 5px;
+}
+
+.input-filter input {
+  border: none;
+  background-color: #f5f5f5;
+  flex-grow: 1;
+}
+
+.input-filter input:focus {
+  outline: none;
+}
+
+.div-container-chats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.div-container-chats::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 25px;
+  background-color: rgb(240, 240, 240);
+}
+
+.div-container-chats::-webkit-scrollbar-thumb {
+  background-color: rgb(225, 225, 225);
+  border-radius: 25px;
+}
+
+.newChat {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 360px;
+  background: #ff7553;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.newChat:hover {
+  background: #df684a;
+  transition: 200ms;
+}

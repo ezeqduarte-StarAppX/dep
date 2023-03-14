@@ -1,0 +1,8 @@
+.principalChat-div {
+    background-color: rgb(179, 108, 108);
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

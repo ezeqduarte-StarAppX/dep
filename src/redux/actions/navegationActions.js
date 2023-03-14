@@ -8,16 +8,24 @@ const filtrarEntrenadores = createAction("filtrarEntrenadores", () => {
 
 const filtrarClubes = createAction("filtrarClubes", () => {
   return {
-    payload: "filtrar",
+    payload: "filtrarClubes",
   };
 });
 
 const reservarHorario = createAction("reservarHorario", () => {
   return {
-    payload: "reservar",
+    payload: "reservarHorario",
   };
 });
 
-const navegationActions = { filtrarEntrenadores, filtrarClubes, reservarHorario };
+const activarFiltros = createAction("activarFiltros", () => {
+  return {
+    payload: "activarFiltros",
+  };
+});
+
+
+
+const navegationActions = { filtrarEntrenadores, filtrarClubes, reservarHorario, activarFiltros };
 
 export default navegationActions;

@@ -1,13 +1,14 @@
 import { createReducer } from "@reduxjs/toolkit";
 import navegationActions from "../actions/navegationActions";
 
-const { filtrarEntrenadores, filtrarClubes, reservarHorario } =
+const { filtrarEntrenadores, filtrarClubes, reservarHorario, activarFiltros } =
   navegationActions;
 
 const initialState = {
   estadoFiltrarEntrenadores: false,
   estadoFiltrarClubes: false,
   reservarHorarioPop: false,
+  filtrosActivos: false,
 };
 
 const navegationReducer = createReducer(initialState, (builder) => {
@@ -42,7 +43,14 @@ const navegationReducer = createReducer(initialState, (builder) => {
   builder.addCase(reservarHorario, (state, action) => {
     return {
       ...state,
-      reservarHorarioPop: !state.reservarHorarioPop
+      reservarHorarioPop: !state.reservarHorarioPop,
+    };
+  });
+
+  builder.addCase(activarFiltros, (state, action) => {
+    return {
+      ...state,
+      filtrosActivos: !state.filtrosActivos,
     };
   });
 });

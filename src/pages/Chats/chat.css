@@ -1,0 +1,9 @@
+.principal-div-chats{
+
+    width: 100%;
+    height: 100vh;
+    background: #FAFAFA;
+    padding-left: 85px;
+    display: flex;
+
+}

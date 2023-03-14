@@ -1,7 +1,8 @@
 import React from "react";
 import { useHref } from "react-router-dom";
-import NavigationBar from "../componentes/Inicio/NavigationBar/NavigationBar";
-import SearchBar from "../componentes/Inicio/SearchBar/SearchBar";
+import NavigationBar from "../componentes/Navbar/NavigationBar/NavigationBar";
+import SearchBar from "../componentes/Navbar/SearchBar/SearchBar";
+
 
 export default function Main(props) {
   const href = useHref();
@@ -15,7 +16,7 @@ export default function Main(props) {
   ) : (
     <>
       <div className="mainDiv">
-        <SearchBar></SearchBar>
+       {/*  <SearchBar></SearchBar> */}
         <div className="mainDiv">
           <NavigationBar></NavigationBar>
           {props.children}
